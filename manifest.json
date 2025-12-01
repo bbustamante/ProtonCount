@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ProtonCount",
+  "version": "1.0",
+
+  "description": "Proton Documents Counters (words, chars...).",
+
+  "icons": {
+    "48": "icons/protoncount-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://docs-editor.proton.me/*"],
+      "js": ["widget.js", "content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}

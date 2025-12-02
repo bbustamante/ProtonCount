@@ -74,12 +74,18 @@ function createCountList(charCount, wordCount) {
 
   // Character count item
   const liChars = document.createElement('li');
-  liChars.innerHTML = `<b>Chars:</b> ${charCount}`;
+  const bChars = document.createElement('b');
+  bChars.textContent = 'Chars:';
+  liChars.appendChild(bChars);
+  liChars.appendChild(document.createTextNode(` ${charCount}`));
   ul.appendChild(liChars);
 
   // Word count item
   const liWords = document.createElement('li');
-  liWords.innerHTML = `<b>Words:</b> ${wordCount}`;
+  const bWords = document.createElement('b');
+  bWords.textContent = 'Words:';
+  liWords.appendChild(bWords);
+  liWords.appendChild(document.createTextNode(` ${wordCount}`));
   ul.appendChild(liWords);
 
   // Return the list element

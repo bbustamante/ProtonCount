@@ -32,6 +32,14 @@
 
 ---
 
+## 🎨 Screenshoots
+
+| Vista inicial | Selección activa |
+|---------------|------------------|
+| ![Default](screenshoots/protoncount_default.png) | ![Select](screenshoots/protoncount_select.png) |
+
+---
+
 ## 🛠️ Installation (Load Unpacked Extension)
 
 Since this is a custom extension, you need to install it manually using your browser's "Developer Mode."

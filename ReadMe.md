@@ -34,7 +34,7 @@
 
 ## 🎨 Screenshoots
 
-| Vista inicial | Selección activa |
+| Proton count total | Proton count selection |
 |---------------|------------------|
 | ![Default](screenshoots/protoncount_default.png) | ![Select](screenshoots/protoncount_select.png) |
 
